@@ -1,4 +1,4 @@
-module p134d/tg_math_bot
+module github.com/p134d/tg_bot-math_problems
 
 go 1.16
 

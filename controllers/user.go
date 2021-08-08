@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	models "p134d/tg_math_bot/models"
+	models "github.com/p134d/tg_bot-math_problems/models"
 )
 
 func SolveProblem(user models.UserProblem, problem models.Problem) {

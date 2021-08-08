@@ -1,7 +1,7 @@
 package models
 
 import (
-	database "p134d/tg_math_bot/database"
+	database "github.com/p134d/tg_bot-math_problems/database"
 
 	"gorm.io/gorm"
 )

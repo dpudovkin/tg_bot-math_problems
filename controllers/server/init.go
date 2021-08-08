@@ -6,8 +6,9 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	models "p134d/tg_math_bot/models"
 	"strconv"
+
+	models "github.com/p134d/tg_bot-math_problems/models"
 )
 
 func Start(botUrl string) {

@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"encoding/json"
 	"net/http"
-	controllers "p134d/tg_math_bot/controllers"
-	models "p134d/tg_math_bot/models"
 	"strconv"
+
+	controllers "github.com/p134d/tg_bot-math_problems/controllers"
+	models "github.com/p134d/tg_bot-math_problems/models"
 )
 
 func respond(botUrl string, update models.Update) error {

@@ -1,9 +1,9 @@
 package main
 
 import (
-	server "p134d/tg_math_bot/controllers/server"
-	"p134d/tg_math_bot/database"
-	models "p134d/tg_math_bot/models"
+	server "github.com/p134d/tg_bot-math_problems/controllers/server"
+	"github.com/p134d/tg_bot-math_problems/database"
+	models "github.com/p134d/tg_bot-math_problems/models"
 )
 
 func main() {
